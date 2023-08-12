@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display:inline-block;
+    margin:25px 0px;
+    font-size:large;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    padding: 25px 25px;
+}
+
+nav label {
+    display:flex;
+    color:white;
+    font-family: 'Cookie', cursive;
+    font-size: xx-large;
+    background-color: rgb(216, 31, 31);
+    justify-content: center;
+}
+
+nav {
+    background-color:rgb(216, 31, 31);
+}
+
+main {
+    margin: 50px 50px 50px 50px;
+}
+
+.GTS {
+    display: flex;
+    transform: translate(50px,0px);
+}
+
+.Purosangue {
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+.Portofino {
+    display:flex;
+    transform: translate(50px,0px);
+}
+
+.F40 {
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+.SF90 {
+    display:flex;
+    transform: translate(50px,0px);
+}
+
+.F50 {
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+.F12 {
+    display:flex;
+    transform: translate(50px,0px);
+}
+
+.GT3 {
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+img {
+    height:37.5%;
+    width:37.5%;
+    margin: 50px 50px;
+    transition: transform 0.5s ease 0s;
+}
+
+.nav li a:hover {
+    background:white;
+    color:rgb(216, 31, 31);
+}
+
+img:hover {
+    transform:scale(1.5);
+}

@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display:inline-block;
+    margin:25px 0px;
+    font-size:large;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    padding: 25px 25px;
+}
+
+nav label {
+    display:flex;
+    color:white;
+    font-family: 'Cookie', cursive;
+    font-size: xx-large;
+    background-color: rgb(170, 170, 170);
+    justify-content: center;
+}
+
+nav {
+    background-color:rgb(170, 170, 170);
+}
+
+main {
+    margin: 50px 50px 50px 50px;
+}
+
+.GLC {
+    display: flex;
+    transform: translate(50px,0px);
+}
+
+.ClassG {
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+.ClassA {
+    display:flex;
+    transform: translate(50px,0px);
+}
+
+.ClassE {
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+.SLROADSTER {
+    display:flex;
+    transform: translate(50px,0px);
+}
+
+.Maybach{
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+.AMGGTR {
+    display:flex;
+    transform: translate(50px,0px);
+}
+
+.S300 {
+    display:flex;
+    justify-content:flex-end;
+    transform: translate(-50px,0px);
+}
+
+img {
+    height:37.5%;
+    width:37.5%;
+    margin: 50px 50px;
+    transition: transform 0.5s ease 0s;
+}
+
+.nav li a:hover {
+    background:white;
+    color:rgb(170, 170, 170);
+}
+
+img:hover {
+    transform:scale(1.5);
+}
